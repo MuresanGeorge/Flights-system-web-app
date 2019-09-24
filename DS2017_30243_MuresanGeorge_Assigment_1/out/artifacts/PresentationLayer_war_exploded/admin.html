@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>CREATE</h1>
+<form action="admin" method="POST">
+    <pre>Airplane Type<input type="text" name="airplaneType"></pre>
+    <pre>Departure City<input type="text" name="departureCity"></pre>
+    <pre>Arrival City<input type="text" name="arrivalCity"></pre>
+    <pre>Departure DateHour<input type="text" name="departureDateHour"></pre>
+    <pre>Arrival DateHour<input type="text" name="arrivalDateHour"></pre>
+
+    <input type="submit" value="Add flight" >
+</form>
+
+<h1>READ</h1>
+<h3>Apasa GO pentru a vedea toate zborurile</h3>
+<form action="admin" method="GET">
+    <input type="submit" value="GO">
+</form>
+
+<h1>UPDATE</h1>
+<form action="admin" method="POST">
+    <pre>Flight ID<input type="text" name="flightIdU"></pre>
+    <pre>Airplane Type<input type="text" name="airplaneType"></pre>
+    <pre>Departure City<input type="text" name="departureCity"></pre>
+    <pre>Arrival City<input type="text" name="arrivalCity"></pre>
+    <pre>Departure DateHour<input type="text" name="departureDateHour"></pre>
+    <pre>Arrival DateHour<input type="text" name="arrivalDateHour"></pre>
+    <input type="submit" value="Update flight" >
+</form>
+
+<h1>DELETE</h1>
+<form action="admin" method="POST">
+    <pre>Flight ID<input type="text" name="flightIdD">
+    <input type="submit" value="Delete flight" ></pre>
+</form>
+
+
+</body>
+</html>
