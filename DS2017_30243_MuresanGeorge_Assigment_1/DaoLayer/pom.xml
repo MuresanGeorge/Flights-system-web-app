@@ -13,7 +13,7 @@
 
     <!--chestii bagate de la faculta-->
     <properties>
-        <hibernate-core.version>5.0.0.Final</hibernate-core.version>
+        <hibernate-core.version>5.4.24.Final</hibernate-core.version>
         <jta.version>1.1</jta.version>
         <mysql-connector-java.version>8.0.11</mysql-connector-java.version>
         <junit.version>4.12</junit.version>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.3.7.Final</version>
+            <version>5.4.24.Final</version>
         </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.3.7.Final</version>
+            <version>5.4.24.Final</version>
         </dependency>
 
 
